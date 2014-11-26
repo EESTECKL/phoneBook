@@ -46,4 +46,13 @@ public class MainActivity extends Activity {
     	TextView textView = (TextView) findViewById(R.id.textView1);
     	textView.setText("Hello Phone book!");
     }
+    
+    public void startAddContactActivity(View view){
+        Intent intent = new Intent(this, AddContactActivity.class);
+//       EditText editText = (EditText) findViewById(R.id.edit_message);
+//       String message = editText.getText().toString();
+//        intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
+    }
+    
 }

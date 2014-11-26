@@ -5,8 +5,15 @@
     <string name="hello_world"></string>
     <string name="hello_phoneBook"></string>
     <string name="action_settings">Settings</string>
-
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Engage</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_add_contact">AddContactActivity</string>
+    <string name="button_add_contact">Add Contact</string>
+    <string name="textView_firstName">First Name</string>
+    <string name="textView_lastName">Last Name</string>
+    <string name="textView_TelNumber">Tel Number</string>
+    <string name="button_addPhoto">Add Photo</string>
+    <string name="button_SaveContact">Save Contact</string>
+
 </resources>
