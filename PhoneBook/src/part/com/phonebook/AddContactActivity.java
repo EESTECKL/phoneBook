@@ -69,8 +69,8 @@ public class AddContactActivity extends Activity {
 		contact.phone_number = et_phone_number.getText().toString();
 		contact.photo_path = photo_path;
 
-		if (contact.first_name != "" && contact.last_name != ""
-				&& contact.phone_number != "")
+		if (contact.first_name.length()>0 && contact.last_name.length()>0
+				&& contact.phone_number.length()>0)
 		{
 			dba.open();
 			contact.id = dba.insertContact(contact);
