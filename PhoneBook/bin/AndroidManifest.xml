@@ -30,6 +30,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="part.com.phonebook.MainActivity" />
         </activity>
+        <activity
+            android:name=".ListContactsActivity"
+            android:label="@string/title_activity_list_contacts"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="part.com.phonebook.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

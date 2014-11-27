@@ -15,5 +15,7 @@
     <string name="textView_TelNumber">Tel Number</string>
     <string name="button_addPhoto">Add Photo</string>
     <string name="button_SaveContact">Save Contact</string>
+    <string name="button_listContacts">List Contacts</string>
+    <string name="title_activity_list_contacts">List Contacts Activity</string>
 
 </resources>
